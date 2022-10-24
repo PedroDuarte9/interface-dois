@@ -1,6 +1,6 @@
 package model.services;
 
-//5
+
 public class PaypalService implements OnlinePaymentService {
 
     public double paymentFee(double amount){

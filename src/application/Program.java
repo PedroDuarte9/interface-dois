@@ -33,7 +33,7 @@ public class Program {
 
         System.out.println("Entre com o número de parcelas: ");
         int installments = sc.nextInt();
-        Installment installment = new Installment(installments, new PaypalService());
+
 
 
 

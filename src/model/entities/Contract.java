@@ -13,11 +13,6 @@ public class Contract {
     public Contract(){
 
     }
-    public Contract(Date date, Double totalValeu) {
-        this.date = date;
-        this.totalValeu = totalValeu;
-    }
-
 
     public Contract(Integer number, Date date, Double totalValeu) {
         this.number = number;
@@ -25,12 +20,7 @@ public class Contract {
         this.totalValeu = totalValeu;
     }
 
-    public Contract(Integer number, Date date, Double totalValeu, Installment installment) {
-        this.number = number;
-        this.date = date;
-        this.totalValeu = totalValeu;
-        this.installment = installment;
-    }
+
 
     public Integer getNumber() {
         return number;
@@ -63,4 +53,5 @@ public class Contract {
     public void setInstallment(Installment installment) {
         this.installment = installment;
     }
+
 }
